@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>プレイ</title>
+  <link rel="stylesheet" href="../css/block.css">
+  <link rel="stylesheet" href="../css/color.css">
+  <link rel="stylesheet" href="../css/text.css">
+  <link rel="stylesheet" href="../css/frame.css">
+  <link rel="stylesheet" href="../css/button.css">
+  <link rel="stylesheet" href="../css/play.css">
+</head>
+<body class="white">
+  <div id="base">
+    <div id="app">
+      <div class="timer tx_black">{{ minutes }}:{{ seconds }}</div>
+        <div class="gray frout_black frame" id="sample">
+          <div v-for="(bData, index) in blockData">
+            <div class="container">
+              <div class="block" v-for="(data, id) in bData" v-bind:class="data.color" v-on:click="clickEvent(id,index)">
+                <div class="text tx_white bl_text bold">
+                  {{ data.number }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

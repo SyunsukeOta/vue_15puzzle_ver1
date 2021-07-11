@@ -1,0 +1,21 @@
+.title {
+  font-family: HiraginoSans-W6;
+  font-size: 75px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.text {
+  font-family: HiraginoSans-W3;
+  font-size: 33.75px;
+}
+
+.bold {
+  font-family: HiraginoSans-W6;
+}
+
+.timer {
+  font-family: HiraginoSans-W5;
+  font-size: 75px;
+  margin: 10px;
+}

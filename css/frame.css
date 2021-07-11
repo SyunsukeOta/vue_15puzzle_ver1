@@ -1,0 +1,7 @@
+.frame {
+  font-size: 0;
+  width: 600px;
+  height: 600px;
+  border-width: 15px;
+  border-style: solid;
+}

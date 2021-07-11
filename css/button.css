@@ -1,0 +1,13 @@
+.button {
+  width: 386.25px;
+  height: 88.5px;
+  border-radius: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bt_text {
+  margin: auto;
+  display: block;
+}

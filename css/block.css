@@ -1,0 +1,18 @@
+.block {
+  width: 142.5px;
+  height: 142.5px;
+  /* box-shadow: 3.75px 3.75px 3.75px #00000029; */
+  margin: 3.75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bl_text {
+  margin: auto;
+  display: block;
+}
+
+.container {
+  display: flex;
+}

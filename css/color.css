@@ -1,0 +1,40 @@
+.blue {
+  background-color: #4FC3F7;
+}
+
+.orange {
+  background-color: #FF9100;
+}
+
+.yellow {
+  background-color: #FBC02D;
+}
+
+.green {
+  background-color: #64DD17;
+}
+
+.gray {
+  background-color: #9E9E9E;
+}
+
+.black {
+  background-color: #424242;
+}
+
+.white {
+  background-color: #ECEFF1;
+}
+
+.tx_white {
+  color: #ECEFF1;
+}
+
+.tx_black {
+  color: #424242;
+}
+
+.frout_black {
+  border-color: #424242;
+}
+
