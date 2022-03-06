@@ -1,0 +1,2 @@
+# vue_15puzzle_ver1
+15puzzleAppの必要のないファイルを省きました。
